@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Notas Finales</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al CSS -->
+</head>
+<body>
+    <div class="container">
+        <!-- Sección Izquierda -->
+        <div class="left-section">
+            <h1>Calculadora de Notas Finales</h1>
+            <div id="students-container"></div>
+            <button onclick="addStudent()">Agregar Estudiante</button>
+            <button onclick="calculateResults()">Calcular Notas Finales</button>
+            <button id="reset-button" onclick="resetData()" disabled>Actualizar</button>
+        </div>
+        <!-- Sección Derecha -->
+        <div class="right-section">
+            <h1>Resultados</h1>
+            <div class="results" id="results"></div>
+        </div>
+    </div>
+    <script src="app.js"></script> <!-- Enlace al JavaScript -->
+</body>
+</html>
+
